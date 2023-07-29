@@ -7,18 +7,21 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.carhatt.R;
+import com.example.carhatt.databinding.ActivityBookingBinding;
+import com.example.carhatt.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
-
+    ActivityMainBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
     }
 
    public void doSomething (View v){
        System.out.println("Hi");
-       Intent intent = new Intent(getApplicationContext(), sign_UP.class);
+       Intent intent = new Intent(getApplicationContext(), BookingPage.class);
        startActivity(intent);
    }
 }
