@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
    public void doSomething (View v){
        System.out.println("Hi");
-       Intent intent = new Intent(getApplicationContext(), BookingPage.class);
+       Intent intent = new Intent(getApplicationContext(), sign_UP.class);
        startActivity(intent);
    }
 
