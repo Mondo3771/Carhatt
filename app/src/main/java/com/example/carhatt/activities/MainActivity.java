@@ -24,4 +24,9 @@ public class MainActivity extends AppCompatActivity {
        Intent intent = new Intent(getApplicationContext(), BookingPage.class);
        startActivity(intent);
    }
+
+   public void Login (View v){
+       Intent intent = new Intent(getApplicationContext(), userHome.class);
+       startActivity(intent);
+   }
 }

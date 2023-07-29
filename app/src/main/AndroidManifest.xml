@@ -16,6 +16,11 @@
         <activity
             android:name=".activities.BookingPage"
             android:exported="false" />
+      <activity
+            android:name=".activities.userHome"
+            android:exported="false"
+            android:label="@string/title_activity_user_home"
+            android:theme="@style/Theme.Carhatt.NoActionBar" />
         <activity
             android:name=".activities.sign_UP"
             android:exported="false" />
