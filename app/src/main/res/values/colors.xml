@@ -8,6 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name ="Blue">#FF4B6EBE</color>
+    <color name="Midnight">#FF141D26</color>
     <color name ="Teal">#FF627EA7</color>
 
 </resources>
