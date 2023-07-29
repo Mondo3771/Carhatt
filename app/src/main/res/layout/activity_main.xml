@@ -55,7 +55,7 @@
         tools:layout_editor_absoluteY="130dp">
 
         <RadioButton
-            android:id="@+id/User"
+            android:id="@+id/s"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Users" />
