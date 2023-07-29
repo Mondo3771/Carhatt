@@ -1,5 +1,6 @@
 package com.example.carhatt.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -43,6 +44,10 @@ public class sign_UP extends AppCompatActivity {
             public void ProcessResponse(String response) throws JSONException {
 
                 Toast.makeText(getApplicationContext(),response, Toast.LENGTH_SHORT).show();
+                if(response.equals("Registration successful")){
+                    Intent intent = new Intent(getApplicationContext(),userHome.class);
+                    startActivity(intent);
+                }
             }
         });
 
